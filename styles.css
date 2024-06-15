@@ -12,7 +12,7 @@
 } */
 
 main{
-    background: url(img/galaxy2.jpeg);
+    background: url(img/galaxy2.webp);
     background-size: cover;
     text-shadow: 2px 1px 2px black;
     color: rgb(249, 221, 149);
