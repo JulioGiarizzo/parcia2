@@ -95,5 +95,10 @@ main{
 footer{
     background: url(img/img-presentation.jpg);
     background-size: cover;
-    height: 6.25rem;
+    height: 300px;
+}
+
+#icon{
+    height: 5rem;
+    width: 5rem;
 }
