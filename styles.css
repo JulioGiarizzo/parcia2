@@ -79,6 +79,11 @@ main{
     background-size: cover;
 }
 
+.card :hover{
+    transform:scale(1.1);
+}
+
+
 #cardsdos .card-body .card-title{
     text-shadow: 2px 2px 4px black;
     color: rgb(250, 228, 138)
@@ -95,10 +100,6 @@ main{
 footer{
     background: url(img/img-presentation.jpg);
     background-size: cover;
-    height: 300px;
+    min-height: 300px;
 }
 
-#icon{
-    height: 5rem;
-    width: 5rem;
-}
