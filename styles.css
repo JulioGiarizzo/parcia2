@@ -1,0 +1,99 @@
+.bg-img{
+    background: url(img/img-presentation.jpg);
+    background-size: cover;
+}
+
+/* .cardcontainer{
+    min-height: 300px;
+} */
+
+/* #vaca{
+    background: linear-gradient(to left top, rgb(55, 55, 230), rgb(218, 61, 61));
+} */
+
+main{
+    background: url(img/galaxy2.jpeg);
+    background-size: cover;
+    text-shadow: 2px 1px 2px black;
+    color: rgb(249, 221, 149);
+}
+
+.containerimg{
+    height: 500px;
+    /* background: linear-gradient(to left top, rgb(55, 55, 230), rgb(218, 61, 61)); */
+    background: url(img/img-presentation.jpg);
+    background-size: cover;
+}
+
+#tarjetauno .row .card{
+    background: url(img/img-presentation.jpg);
+    background-size: cover;
+}
+
+/* .contenedorparrafocentrado{
+    height: 400px;
+} */
+
+.imgsecparrafote{
+
+    width: auto;
+    height: 20%;
+    padding: 0.3125rem;
+
+}
+
+.divcard{
+    width: 80%;
+    
+}
+
+.paddingpersonal{
+    padding: 5rem 300px;
+}
+
+.img11{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.img2{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#nebulosas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /*  background: linear-gradient(to left top, rgb(55, 55, 230), rgb(218, 61, 61)); */
+    background: url(img/img-presentation.jpg);
+    background-size: cover;
+}
+
+#cardsdos{
+    background: url(img/galaxy1.jpg);
+    background-size: cover;
+}
+
+#cardsdos .card-body .card-title{
+    text-shadow: 2px 2px 4px black;
+    color: rgb(250, 228, 138)
+    ;
+}
+
+#cardsdos .card-body .card-text{
+    text-shadow: 2px 2px 4px black;
+    color: rgb(255, 231, 133)
+    ;
+}
+
+
+footer{
+    background: url(img/img-presentation.jpg);
+    background-size: cover;
+    height: 6.25rem;
+}
