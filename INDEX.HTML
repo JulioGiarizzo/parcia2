@@ -14,7 +14,7 @@
 
 <body>
 
-    <nav class="container navbar navbar-expand-lg navbar-dark bg-dark text-light fs-3 fw-semibold">
+    <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-dark text-light fs-3 fw-semibold">
         <div class="container">
             <a class="navbar-brand" href="#"><img class="img-fluid w-50" src="./img/planetariolog.webp" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -54,16 +54,16 @@
         </div>
     </nav>
 
-    <header class="container bg-img p-3">
+    <header class="container-fluid bg-img p-3">
         <h1 class="text-light text-center display-1 fw-bold">El Universo visible</h1>
         <p class="text-light text-center">Mas cerca que nunca</p>
     </header>
 
-    <main class="container text-center p-5">
+    <main class="container-fluid text-center p-5">
 
         <h2 class="display-3 mb-3">Lo que conocemos del universo</h2>
 
-        <article class="fs-4">
+        <article class="container fs-4">
             <p>En el vasto lienzo del cosmos, el universo visible se extiende ante nosotros, revelando un espectáculo de
                 maravillas cósmicas que desafían nuestra comprensión y nos inspiran a explorar más allá de los límites
                 de lo conocido.</p>
@@ -91,171 +91,182 @@
         </article>
     </main>
 
-    <section class="container">
-        <div id="vaca" class="row bg-dark">
-            <div class="col-12 col-lg-6 p-5 m-auto text-light">
-                <h2>Un lugar para visitar en vacaiones</h2>
-                <p>En este descanso de invierno date una vuelta y asombrate. Lo inalcanzable nunca estuvo tan cerca.</p>
-                <!-- <button type="button" class="btn btn-light">Ver mas</button> -->
-
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-                    Clickeá y enterate lo podés descubrir en el planetario
-                </button>
-
-                <div class="col-12 col-md-12 col-lg-6" style="min-height: 120px;">
-                    <div class="collapse collapse-horizontal" id="collapseWidthExample">
-                        <div class="col-12 col-md-12 col-lg-12 card-body " style="max-width:800px">
-                            En el planetario, la inmensidad del cosmos se convierte en un espectáculo cautivador que
-                            transporta a los espectadores a través del espacio y el tiempo. Las proyecciones en la
-                            cúpula celestial despliegan un deslumbrante desfile de estrellas, planetas y galaxias,
-                            mientras los espectadores se sumergen en narrativas fascinantes sobre la astronomía, la
-                            exploración espacial y los misterios del universo. Ya sea viajando a través de los confines
-                            del sistema solar o contemplando la inmensidad de las galaxias distantes, los
-                            entretenimientos en el planetario inspiran asombro, curiosidad y un profundo sentido de
-                            conexión con el cosmos.
+    <section class="container-fluid bg-dark">
+        <div class="container">
+            <div id="vaca" class="row">
+                <div class="col-12 col-lg-6 p-5 m-auto text-light">
+                    <h2>Un lugar para visitar en vacaiones</h2>
+                    <p>En este descanso de invierno date una vuelta y asombrate. Lo inalcanzable nunca estuvo tan cerca.</p>
+                    <!-- <button type="button" class="btn btn-light">Ver mas</button> -->
+    
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                        Clickeá y enterate lo podés descubrir en el planetario
+                    </button>
+    
+                    <div class="col-12">
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                            <div class="col-12 col-md-12 col-lg-12 card-body " style="max-width:800px">
+                                En el planetario, la inmensidad del cosmos se convierte en un espectáculo cautivador que
+                                transporta a los espectadores a través del espacio y el tiempo. Las proyecciones en la
+                                cúpula celestial despliegan un deslumbrante desfile de estrellas, planetas y galaxias,
+                                mientras los espectadores se sumergen en narrativas fascinantes sobre la astronomía, la
+                                exploración espacial y los misterios del universo. Ya sea viajando a través de los confines
+                                del sistema solar o contemplando la inmensidad de las galaxias distantes, los
+                                entretenimientos en el planetario inspiran asombro, curiosidad y un profundo sentido de
+                                conexión con el cosmos.
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-6 p-1 m-auto">
-                <img class="img-fluid" src="img/planetario.webp" alt="planetario por dentro con gente viendo el show">
+                <div class="col-12 col-md-6 col-lg-6 p-1 m-auto">
+                    <img class="img-fluid" src="img/planetario.webp" alt="planetario por dentro con gente viendo el show">
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="museo" class="container containerimg">
+    <section id="museo" class="container-fluid containerimg">
 
-        <div class="row">
-            <div class="col-12 col-md-12 col-lg-12 p-5 text-center">
-                <h2 class="text-light">Un museo de cosas que nunca creiste ver</h2>
-            </div>
-
-
-            <iframe class="iframe col-12 col-md-12 col-lg-12 p-5 text-center" width="560" height="315"
-                src="https://www.youtube.com/embed/7I8h82ALiWI?si=2LWAJaYJsNfVYQEY" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    </section>
-
-    <section id="charlas" class="container bg-dark">
-        <div class="row contenedorparrafocentrado">
-
-            <div class="col-12 col-md-12 col-lg-12 p-5 text-center text-center">
-                <h2 class="text-light">Charlas introductorias</h2>
-
-                <div class="col-12">
-                    <p class="text-light p-2">No importa si nunca te enteraste de las bastas y asombrosas cosas que
-                        hacen a
-                        nuestro universo. Tenesmos charlas explicativas de los temas que mas motivan las investigaciones
-                        de
-                        hoy en dia. Tambien vas a conocer un poco de la historia detras de cada una de estas
-                        investigaciones
-                        y las personas que inspiradas en el firmamento, dedicaron su vida a satisfacer sus curiosidades
-                        y
-                        responder a las interrogantes que nos invaden al levantar la mirada al cielo en noches
-                        estrelladas.
-                    </p>
+        <section class="container mb-4">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12 p-2 text-center">
+                    <h2 class="text-light display-3 fw-semibold">Un museo de cosas que nunca creiste ver</h2>
                 </div>
-            </div>
-    </section>
-
-    <section id="tarjetauno" class="container bg-dark">
-
-        <div class="row d-flex align-items-center justify-content-evenly p-1 g-1">
-
-
-            <article class="card col-10 col-md-4 col-lg-4 m-1 mb-3 text-light " style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-12 col-md-4">
-                        <img src="./icons/casco.png" class="img-fluid rounded-start w-75 mt-4 ms-4" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Viajar al espacio</h5>
-                            <p class="card-text">Cómo es viajar al espacio, como se preparan los astronautas, cuánto duran los viajes.</p>
-                            <p class="card-text"><small class="text-body-light">(Sólo en vacaciones)</small></p>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
-            <article class="card col-10 col-md-4 col-lg-4 m-1 mb-3 text-light" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-12 col-md-4">
-                        <img src="./icons/asteroide.png" class="img-fluid rounded-start  w-75 mt-4 ms-4" alt="...">
-                    </div>
-                    <div class="col-md-8 g-1">
-                        <div class="card-body">
-                            <h5 class="card-title">La materia espacial</h5>
-                            <p class="card-text">Qué cosas hay en el espacio, cómo se obtienen, don se estudia lo recolectado.</p>
-                            <p class="card-text"><small class="text-body-light">(Sólo en vacaciones)</small></p>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
-
-    </section>
-
-    <section class="container">
-        <section id="nebulosas" class="row p-3">
-
-
-            <section class="col-12">
-
-                <section id="carouselExampleDark" class="carousel carousel-light slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="./img/neb2.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Nebulosa recien creada</h5>
-                                <p>Luego de la muerte explosiva de una estrella supermasiva nacen las nebulosas</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img src="./img/neb1.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Creacion luego de la destrucción</h5>
-                                <p>Dentro de la nebulosa, incontables cuerpos celestes nacen del polvo estelar.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img id="neb" src="./img/neb4.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Una captura del tiempo</h5>
-                                <p>Las nebulosas parecen permanecer inmutables aun mileños luego de su nacimiento.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </section>
-            </section>
-
+                <iframe class="iframe col-12 col-md-12 col-lg-12 p-2 justify-content-center align-items-center" width="560" height="315"
+                    src="https://www.youtube.com/embed/7I8h82ALiWI?si=2LWAJaYJsNfVYQEY" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
 
     </section>
 
-    <section id="actualidad" class="container bg-dark">
+    <section id="charlas" class="container-fluid bg-dark">
+
+
+        <section class="container">
+            <div class="row contenedorparrafocentrado">
+                <div class="col-12 col-md-12 col-lg-12 p-5 text-center text-center">
+                    <h2 class="text-light display-3">Charlas introductorias</h2>
+                    <div class="col-12">
+                        <p class="text-light p-2">No importa si nunca te enteraste de las bastas y asombrosas cosas que
+                            hacen a
+                            nuestro universo. Tenesmos charlas explicativas de los temas que mas motivan las investigaciones
+                            de
+                            hoy en dia. Tambien vas a conocer un poco de la historia detras de cada una de estas
+                            investigaciones
+                            y las personas que inspiradas en el firmamento, dedicaron su vida a satisfacer sus curiosidades
+                            y
+                            responder a las interrogantes que nos invaden al levantar la mirada al cielo en noches
+                            estrelladas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        
+    </section>
+
+    <section id="tarjetauno" class="container-fluid bg-dark">
+
+        <section class="container">
+            <div class="row d-flex align-items-center justify-content-evenly p-1 g-1">
+                <article class="card col-10 col-md-4 col-lg-4 m-1 mb-3 text-light " style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-12 col-md-4">
+                            <img src="./icons/casco.png" class="img-fluid rounded-start w-75 mt-4 ms-4" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Viajar al espacio</h5>
+                                <p class="card-text">Cómo es viajar al espacio, como se preparan los astronautas, cuánto duran los viajes.</p>
+                                <p class="card-text"><small class="text-body-light">(Sólo en vacaciones)</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card col-10 col-md-4 col-lg-4 m-1 mb-3 text-light" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-12 col-md-4">
+                            <img src="./icons/asteroide.png" class="img-fluid rounded-start  w-75 mt-4 ms-4" alt="...">
+                        </div>
+                        <div class="col-md-8 g-1">
+                            <div class="card-body">
+                                <h5 class="card-title">La materia espacial</h5>
+                                <p class="card-text">Qué cosas hay en el espacio, cómo se obtienen, don se estudia lo recolectado.</p>
+                                <p class="card-text"><small class="text-body-light">(Sólo en vacaciones)</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </section>
+
+    <section id="nebulosas" class="container-fluid">
+
+
+        <section class="container">
+
+
+            <section  class="row p-3">
+
+
+                <section class="col-12">
+    
+                    <section id="carouselExampleDark" class="carousel carousel-light slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="./img/neb2.webp" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Nebulosa recien creada</h5>
+                                    <p>Luego de la muerte explosiva de una estrella supermasiva nacen las nebulosas</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./img/neb1.webp" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Creacion luego de la destrucción</h5>
+                                    <p>Dentro de la nebulosa, incontables cuerpos celestes nacen del polvo estelar.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img id="neb" src="./img/neb4.webp" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Una captura del tiempo</h5>
+                                    <p>Las nebulosas parecen permanecer inmutables aun mileños luego de su nacimiento.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </section>
+                </section>
+    
+            </section>
+        </section>
+
+    </section>
+
+    <section id="actualidad" class="container-fluid bg-dark">
 
         <h3 class="text-center text-light pt-2 display-3">Actualidad</h3>
 
@@ -292,7 +303,7 @@
 
     </section>
 
-    <footer class="container text-center text-light p-4">
+    <footer class="container-fluid text-center text-light p-4">
         <section class="row">
             <p class="">JULIO CESAR GIARIZZO/DISEÑO MULTIMEDIAL/TN/MO.</p>
         </section>
